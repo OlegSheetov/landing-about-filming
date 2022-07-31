@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body{ 
+  font-family: "Barlow";
+  width: 1440px;
+  overflow-x:hidden;
+}
+header {
+  background-image: url(/images/Image.png);
+  color: white;
+  height: 700px;
+}
+#logo{
+  position: relative;
+  top: 30px;
+  left: 165px;
+  height: 28px;
+  width: 143px;
+}
+#text {
+  position: relative;
+  left: 165px;
+  top: 183px;
+  width: 450px;
+  height: 350px;
+}
+#text > h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+#select_button {
+  background-color: #E11B19;
+  border-radius: 50px;
+  height: 50px;
+  margin: 50px 0px;
+  width: 287px;
+  height: 60px;
+}
+#select_button > p {
+  text-align: center;
+  position: relative;
+  top: 18px;
+  font-size: 14pt;
+}
+#header_bottom_elements{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 200px;
+  left: 255px;
+  width: 900px;
+}
+#header_bottom_elements> div {
+  margin: 0px 50px;
+}
+#header_bottom_elements>div>p{
+  font-weight: bold;
+  font-size: 22pt;
+}
+#header_bottom_elements > div > p:last-child{
+  font-size: 11pt;
+  font-weight: 500;
+}
+#header_bottom_elements > div> img{
+  position: relative;
+  right: 50px;
+  top: 50px;
+}
+#members_benefits {
+  position: relative;
+  top: 45px;
+}
+#members_benefits > p:last-child {
+  font-weight: bold;
+  font-size: 22pt;
+}
+#world-class-training{
+  background-color:rgba(31, 35, 39, 1);
+  color: white;
+  height: 660px;
+}
+#wct_img{
+  background-image: url(/images/Frame\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 540px;
+  height: 360px;
+  position: relative;
+  left: 164px;
+  top: 120px;
+  border-radius: 10px;
+}
+#wct_header {
+  position: relative;
+  left: 830px;
+  bottom: 200px;
+  width: 443px;
+  
+}
+#wct_header>p:first-child {
+  font-weight: 200;
+  font-size: 14pt;
+}
+
+#wct_header> p:last-child {
+  font-weight: bold;
+  font-size:30pt ;
+}
+#wct_description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 870px;
+  bottom: 200px;
+}
+#wct_description > div > img {
+  position: relative;
+  right: 35px;
+  top:25px;
+}
+#lord_josh{
+  background-color: rgba(25, 28, 31, 1);
+  height: 600px;
+  color: white;
+}
+#lj_image {
+  background-image: url(/images/Frame\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  width: 540px;
+  height: 360px;
+  position: relative;
+  left: 735px;
+  top: 180px;
+}
+#lj_text{
+  width: 400px;
+  height: 312px;
+  position: relative;
+  left: 170px;
+  bottom:108px;
+}
+#lj_text>p:first-child{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+#lj_text > h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+#lj_text > p:last-child{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+#freedom_studios_academy{
+  background-image: url(/images/unsplash_Hn3S90f6aak\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+#fsa_text {
+  text-align: center;
+  position: relative;
+  top: 80px;
+} 
+#fsa_text > p:first-child {
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+#freedom_studios_academy> #fsa_text > h1 {
+  width: 746px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  position: relative;
+  margin: 0px 25%;
+}
+#fsa_text > #select_button2{
+  background-color: #E11B19;
+  border-radius: 50px;
+  height: 50px;
+  width: 287px;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  margin: 0px 40%;
+}
+
+#select_button2 > p {
+  text-align: center;
+  position: relative;
+  top: 18px;
+  font-size: 14pt;
+}
+footer{
+  background: #14171A;
+  height: 110px;
+}
+footer > img {
+  position: relative;
+  top: 41px;
+  left: 165px;
+}
+footer > div { 
+  position: relative;
+  left: 1135px; ;
+}
+footer>div>a:first-child{
+  position: relative;
+  top: 8px;
+}
